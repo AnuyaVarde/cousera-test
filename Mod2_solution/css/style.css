@@ -9,9 +9,17 @@
 /********************** Large devices only *************/
 @media (min-width: 992px) 
 {
-	#section1,#section2,#section3
+	#section1
+	{
+		margin: 10px;
+		width:31%;
+		margin-left:2%;
+	}
+
+	#section2,#section3
 	{
 		width:31%;
+		margin:10px;
 	}
 }
 
@@ -21,13 +29,18 @@
 	#section1
 	{
 		width:40%;
+		margin: 10px 10px 10px 20px;
+		margin-left:5%;
 	}
 	#section2{
 		width:40%;
+		margin:10px;
 	}
 	#section3
 	{
 		width:82%;
+		margin: 10px;
+		margin-left:5%;
 	}
 }
 
@@ -37,13 +50,19 @@
    #section1
 	{
 		width:90%;
+		margin: 10px;
+		margin-left:5%;
 	}
 	#section2{
 		width:90%;
+		margin: 10px;
+		margin-left:5%;
 	}
 	#section3
 	{
 		width:90%;
+		margin: 10px;
+		margin-left:5%;
 	}
 }
 
@@ -69,14 +88,12 @@ h2
 {
 	float: left;
 	border: 3px solid black;
-	margin: 10px;
 	background-color: #999999;
 }
 #section2,#section3{
 
 	float: left;
 	border: 3px solid black;
-	margin: 10px;
 	background-color: #999999;
 }
 
@@ -98,10 +115,4 @@ p
 .beigePattern
 {
 	background-color: #E5D198;
-}
-
-div{
-
-	margin: 10px;
-	clear:left;
 }
