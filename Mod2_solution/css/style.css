@@ -34,7 +34,15 @@
 /******************* mobile ********************/
 @media(max-width: 767px)
 {
-   #section1, #section2, #section3{
+   #section1
+	{
+		width:90%;
+	}
+	#section2{
+		width:90%;
+	}
+	#section3
+	{
 		width:90%;
 	}
 }
@@ -90,4 +98,10 @@ p
 .beigePattern
 {
 	background-color: #E5D198;
+}
+
+div{
+
+	margin: 10px;
+	clear:left;
 }
