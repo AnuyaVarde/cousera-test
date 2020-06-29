@@ -42,6 +42,8 @@
 h1
 {
 	text-align: center;
+	margin-top:5%;
+	margin-bottom: 5%;
 }
 
 h2
@@ -60,17 +62,19 @@ h2
 	float: left;
 	border: 3px solid black;
 	margin: 10px;
+	background-color: #999999;
 }
 #section2,#section3{
 
 	float: left;
 	border: 3px solid black;
 	margin: 10px;
+	background-color: #999999;
 }
 
 p
 {
-	padding:5px;
+	padding:10px;
 }
 .peachPattern
 {
